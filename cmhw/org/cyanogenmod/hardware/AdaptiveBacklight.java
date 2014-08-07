@@ -73,4 +73,21 @@ public class AdaptiveBacklight {
             return FileUtils.writeLine(FILE_CABC, "0");
         }
     }
+
+    /**
+     * This method returns the current mode of the configurable adaptive backlight technology.
+     *
+     */
+    public static int getcurrentMode() {
+        return -1;
+    }
+
+    /**
+     * This method allows to setup adaptive backlight technology mode.
+     *
+     * @param mode The new adaptive backlight mode
+     */
+    public static boolean setModeEnabled(int mode) {
+        throw new UnsupportedOperationException();
+    }
 }
